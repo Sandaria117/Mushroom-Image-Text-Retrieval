@@ -1,6 +1,6 @@
 # Mushroom-Image-Text-Retrieval
 Finetune CLIP with LoRA for mushroom image–text retrieval
-- ưewe
+- This project implements a specialized text-to-image retrieval system for mushrooms by fine-tuning CLIP (ViT-B/32) using LoRA (Low-Rank Adaptation). The system enables precise semantic search across a multilingual dataset (English and Vietnamese) by aligning mycological descriptions with visual features.
 
 # Dataset Creation
 The dataset is built for a **mushroom image–text retrieval** task, including:
@@ -21,10 +21,9 @@ The collected dataset contains 3,000+ images of 33 different mushroom species: [
 
 <img width="603" height="284" alt="image" src="https://github.com/user-attachments/assets/bdb77bc7-e84c-4e15-bb01-8e121e7fb74e" />
 
-### `images.csv`
-Mapping between images and species:
-- `imagePath`  
-- `binomialNomenclature`  
+run dataset_to_csv.py and get 2 file csv
+- images.csv: Mapping between images and species:
+  - imagePath 
+  - binomialNomenclature
 
-### `mushrooms.csv`
-Structured metadata for each species (converted from JSON)
+- mushrooms.csv: Structured metadata for each species (converted from JSON)
