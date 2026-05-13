@@ -54,4 +54,4 @@ Retrieval performance is rigorously validated at $k = \{1, 5, 10, 50, 100, 1000\
 - NLP Tools: Hugging Face Transformers (for Back-translation augmentation)
 
 # Collaborator
-- [Kieu Hong Phong]("https://github.com/haiphong-0132")
+- [Kieu Hong Phong](https://github.com/haiphong-0132)
