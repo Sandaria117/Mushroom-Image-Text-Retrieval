@@ -1,6 +1,5 @@
 # Mushroom-Image-Text-Retrieval
-Finetune CLIP with LoRA for mushroom image–text retrieval
-- This project implements a specialized text-to-image retrieval system for mushrooms by fine-tuning CLIP (ViT-B/32) using LoRA (Low-Rank Adaptation). The system enables precise semantic search across a multilingual dataset (English and Vietnamese) by aligning mycological descriptions with visual features.
+This project implements a specialized text-to-image retrieval system for mushrooms by fine-tuning CLIP (ViT-B/32) using LoRA (Low-Rank Adaptation). The system enables precise semantic search across a multilingual dataset (English and Vietnamese) by aligning mycological descriptions with visual features.
 
 # Dataset Creation
 The dataset is built for a **mushroom image–text retrieval** task, including:
@@ -53,3 +52,6 @@ Retrieval performance is rigorously validated at $k = \{1, 5, 10, 50, 100, 1000\
 - Core Frameworks: PyTorch, OpenAI-CLIP, PEFT (LoRA)
 - Vector Search: FAISS (GPU-accelerated)
 - NLP Tools: Hugging Face Transformers (for Back-translation augmentation)
+
+# Collaborator
+- [Kieu Hong Phong]("https://github.com/haiphong-0132")
