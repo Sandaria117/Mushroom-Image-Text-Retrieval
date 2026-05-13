@@ -21,9 +21,8 @@ The collected dataset contains 3,000+ images of 33 different mushroom species: [
 
 <img width="603" height="284" alt="image" src="https://github.com/user-attachments/assets/bdb77bc7-e84c-4e15-bb01-8e121e7fb74e" />
 
-run dataset_to_csv.py and get 2 file csv
-- images.csv: Mapping between images and species:
-  - imagePath 
-  - binomialNomenclature
+- Run dataset_to_csv.py and get output: 2 file csv
+  
+  - images.csv: Mapping between images and species: imagePath, binomialNomenclature
 
-- mushrooms.csv: Structured metadata for each species (converted from JSON)
+  - mushrooms.csv: Structured metadata for each species (converted from JSON)
