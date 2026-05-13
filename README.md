@@ -27,6 +27,7 @@ The collected dataset contains 3,000+ images of 33 different mushroom species: [
   - mushrooms.csv: Structured metadata for each species (converted from JSON
 
 # Train Pipeline
+All experiments and implementations in this notebook were conducted using Kaggle Notebook.
 ## 1. Data Engineering & Augmentation
 - Prompt Construction: Raw metadata fields—including scientific names, habitats, edibility, and morphological features (cap, gills, stem, spores)—are synthesized into descriptive natural language captions.
 - Back-Translation: To increase linguistic diversity without losing scientific accuracy, 30% of English prompts undergo **EN → FR → EN** back-translation, outperforming standard random-deletion methods for technical terms.
